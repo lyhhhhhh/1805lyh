@@ -1,0 +1,204 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+/*头部*/
+.top {
+  height: 90px;
+  width: 100%;
+  /*border-bottom:5px solid #f2f2f2;*/ }
+
+.top img {
+  padding-left: 125px;
+  padding-top: 30px;
+  padding-right: 30px; }
+
+/*bodyer*/
+.bodyer {
+  height: 490px;
+  background: url("https://ssl1.sephorastatic.cn/wcsfrontend/campaign/campaign_img/2018/11/banner/hp_loginlage_20181115.jpg") no-repeat;
+  background-position: -300px 0px;
+  padding-top: 116px; }
+
+.bodyer .login {
+  width: 360px;
+  height: 380px;
+  background-color: white;
+  margin-left: 924px; }
+
+.bodyer .login .span1 {
+  padding-top: 30px;
+  margin-left: 30px;
+  display: block; }
+
+.bodyer .login .Input1 {
+  width: 288px;
+  height: 30px;
+  border: 1px solid #cccccc;
+  margin-left: 30px;
+  margin-top: 42px; }
+
+.bodyer .login .Input1 #input1 {
+  width: 250px;
+  height: 30px;
+  border: 0;
+  float: left; }
+
+.bodyer .login .Input1 .front1 {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: left;
+  background: url(../images/LoginIn-icon.png) no-repeat;
+  background-position: 0px -20px; }
+
+.bodyer .login .Input2 {
+  width: 288px;
+  height: 30px;
+  border: 1px solid #cccccc;
+  margin-left: 30px;
+  margin-top: 22px; }
+
+.bodyer .login .Input2 #password {
+  width: 250px;
+  height: 30px;
+  border: 0;
+  float: left; }
+
+.bodyer .login .Input2 .front2 {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: left;
+  background: url(../images/LoginIn-icon.png) no-repeat;
+  background-position: 0px 0px; }
+
+.bodyer .login .a1 {
+  text-decoration: none;
+  font-size: 12px;
+  color: #919191;
+  margin-top: 20px;
+  margin-left: 30px;
+  display: block; }
+
+.bodyer .login .a1:hover {
+  color: red;
+  text-decoration: underline; }
+
+.bodyer .login .btn1 {
+  width: 290px;
+  border: none;
+  height: 40px;
+  background-color: #999999;
+  margin-left: 30px;
+  margin-top: 20px;
+  color: white;
+  font-size: 16px; }
+
+.bodyer .login .ico {
+  width: 300px;
+  height: 30px;
+  margin-left: 30px; }
+
+.bodyer .login .ico div {
+  width: 24px;
+  height: 24px;
+  background: url(../images/LoginIn-icon.png);
+  float: left;
+  margin-right: 10px;
+  margin-top: 15px; }
+
+.bodyer .login .ico .ico1 {
+  background-position: -56px 0px; }
+
+.bodyer .login .ico .ico2 {
+  background-position: -56px -24px; }
+
+.bodyer .login .ico .ico3 {
+  background-position: -56px -48px; }
+
+.bodyer .login .ico .ico1:hover {
+  background-position: -80px 0px; }
+
+.bodyer .login .ico .ico2:hover {
+  background-position: -80px -24px; }
+
+.bodyer .login .ico .ico3:hover {
+  background-position: -80px -48px; }
+
+.bodyer .login .ico .span5 {
+  margin-top: 20px;
+  color: #ccc;
+  font-size: 12px;
+  display: block;
+  float: left; }
+
+.bodyer .login .ico .a2 {
+  width: 70px;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 12px;
+  margin-top: 20px;
+  display: block;
+  float: left; }
+
+.bodyer .login .ico .a2:hover {
+  color: red; }
+
+/*底部*/
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: black; }
+
+.bottom .zhuce .protocol {
+  padding-left: 95px; }
+
+.bottom .zhuce .protocol .one {
+  font-size: 12px;
+  color: #9d9d9d;
+  text-decoration: none; }
+
+.bottom .zhuce .protocol .two {
+  font-size: 12px;
+  color: #9d9d9d;
+  text-decoration: none;
+  margin-left: 87px; }
+
+.bottom .zhuce .protocol a:hover {
+  text-decoration: underline;
+  color: red; }
+
+/*footer*/
+.footer .left {
+  margin-left: 290px;
+  float: left;
+  margin-top: 34px; }
+
+.footer .left .up {
+  height: 16px;
+  padding-bottom: 10px; }
+
+.footer .left .up img {
+  width: 16px;
+  height: 16px; }
+
+.footer .left .up .span4 {
+  color: #6f6f6f;
+  font-size: 14px;
+  padding-right: 44px; }
+
+.footer .left .span3 {
+  color: #6f6f6f;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-left: 165px; }
+
+.footer .right {
+  float: left;
+  margin-top: 34px; }
