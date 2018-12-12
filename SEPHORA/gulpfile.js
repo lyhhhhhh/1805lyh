@@ -1,6 +1,15 @@
 var gulp = require("gulp");
 //拷贝
+<<<<<<< HEAD
 gulp.task('copy-html1',function(){
+=======
+// gulp.task('copy-html1',function(){
+// 	return gulp.src('*.html')
+// 	.pipe(gulp.dest('dist/html'))
+// 	.pipe(connect.reload());
+// })
+gulp.task("copy-html2",function(){
+>>>>>>> 化妆品
 	return gulp.src('index.html')
 	.pipe(gulp.dest('dist'))
 	.pipe(connect.reload());
@@ -25,7 +34,11 @@ gulp.task("data",function(){
 	.pipe(connect.reload());
 })
 
+<<<<<<< HEAD
 gulp.task("build",['copy-html','copy-html1','images','data','scss'],function(){
+=======
+gulp.task("build",['copy-html','copy-html2','images','data','scss'],function(){
+>>>>>>> 化妆品
 	console.log("项目构建成功");
 })
 
@@ -50,7 +63,11 @@ gulp.task("scss",function(){
 
 //监听
 gulp.task('watch',function(){
+<<<<<<< HEAD
 	gulp.watch('index.html',['copy-html1']);
+=======
+	gulp.watch('*.html',['copy-html2']);
+>>>>>>> 化妆品
 	gulp.watch("images/**/*",['images']);
 	gulp.watch('js/**/*',['data']);
 	gulp.watch("scss/**/*",['scss']);

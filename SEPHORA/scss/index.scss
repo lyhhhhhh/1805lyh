@@ -3,6 +3,12 @@
 	margin:0;
 	padding:0;
 }
+<<<<<<< HEAD
+=======
+body{
+	background: #f5f5f5;
+}
+>>>>>>> 化妆品
 /*header*/
 .header{
 	width: 100%;
@@ -359,10 +365,18 @@
 	background: url("../images/navigation_shopping.png") no-repeat;
 }
 .banner .second{
+<<<<<<< HEAD
 	width: 100%;
 	/*overflow: hidden;*/
 	height:400px;
 	position: relative;
+=======
+	width: 1190px;
+	/*overflow: hidden;*/
+	height:400px;
+	position: relative;
+	margin:0 auto;
+>>>>>>> 化妆品
 }
 .banner .second .ban{
 	width: 1190px;
@@ -423,17 +437,26 @@
 	background-color: #6d6a5e;
 	/*opacity: 0.5;*/
 }
+<<<<<<< HEAD
 .banner .second .ban .ul{
+=======
+.banner .second .ban .ull{
+>>>>>>> 化妆品
 	list-style: none;
 	position: absolute;
 	width: 3570px;
 /*	left:-2380px;*/
 }
+<<<<<<< HEAD
 .banner .second .ban .ul li{
+=======
+.banner .second .ban .ull li{
+>>>>>>> 化妆品
 	float: left;
 	width: 1190px;
 	height: 400px;
 }
+<<<<<<< HEAD
 .banner .second .ban .ul li a{
 	width: 1190px;
 	height: 400px;
@@ -441,6 +464,15 @@
 .banner .second .ban .ul li a img{
 	height: 400px;
 	width: 100%;
+=======
+.banner .second .ban .ull li a{
+	width: 1190px;
+	height: 400px;
+}
+.banner .second .ban .ull li a img{
+	height: 400px;
+/*	width: 100%;*/
+>>>>>>> 化妆品
 /*	position: relative;
 	left:-100px;*/
 
@@ -451,9 +483,29 @@
 	background: url(../images/navigation_sprite_wrap.png) no-repeat;
 }
 */
+<<<<<<< HEAD
   	/*Ã‘Â¡ÃÃ®Â¿Â¨*/
 .banner .commodity{
 	height:550px;
+=======
+.banner .third{
+	width: 950px;
+	margin:0 auto;
+	height:140px;
+	background-color: white;
+	margin-left:355px;
+	padding-top: 10px;
+}
+.banner .third img{
+	float: left;
+	padding-left: 10px;
+}
+
+
+  	/*侧边栏*/
+.banner .commodity{
+	height:560px;
+>>>>>>> 化妆品
 	width: 240px;
 	background-color: white;
 	position: absolute;
@@ -461,6 +513,7 @@
 	left:115px;
 	z-index: 1;
 }
+<<<<<<< HEAD
 .banner .commodity li{
 	height:60px;
 	border-bottom:1px solid #f5f5f5;
@@ -487,6 +540,109 @@
 	height:360px;
 /*	background-color: pink;
 */	width: 1190px;
+=======
+.banner .commodity .goodlist .li1{
+	height:60px;
+	border-bottom:1px solid #f5f5f5;
+	padding-left: 15px;
+	padding-top: 10px;
+}
+.banner .commodity .goodlist .li1 .span5{
+	font-size: 14px;
+	font-weight: bolder;
+	display: block;
+	width: 60px;
+	height: 17px;
+	
+}
+.banner .commodity .goodlist .li1 .ul7{
+	width: 210px;
+	height:20px;
+}
+.banner .commodity .goodlist .li1 .ul7 li{
+	font-size: 12px;
+	float: left;
+	margin-top:10px;
+	color: #8a8a8a;
+	padding-right: 10px;
+}
+.banner .commodity .goodlist .li1 .ul7 li:hover{
+	color: red;
+}
+.banner .commodity .goodlist .li1 .hidden{
+	width: 953px;
+	height:560px;
+	background: white;
+	position: absolute;
+	left: 240px;
+	top:0px;
+	display: none;
+}
+.banner .commodity .goodlist .li1 .hidden .white{
+	width: 600px;
+	height:550px;
+	float: left;
+}
+.banner .commodity .goodlist .li1 .hidden .white .span6{
+	font-size: 16px;
+	font-weight: bolder;
+	display: block;
+	width: 560px;
+	height: 48px;
+	margin-left: 30px;
+	margin-top: 40px;
+	border-bottom: 1px solid #eeeeee;
+}
+.banner .commodity .goodlist .li1 .hidden .white .uls{
+	width: 610px;
+	height: 170px;
+	margin-left:30px;
+}
+.banner .commodity .goodlist .li1 .hidden .white .uls .ul8{
+	float: left;
+	width: 180px;
+	margin-top: 25px;
+	
+}
+.banner .commodity .goodlist .li1 .hidden .white .uls .ul8 li{
+/*	display: block;
+	clear:both;*/
+	float: left;
+	font-size: 12px;
+	color: #8b8b8b;
+}
+.banner .commodity .goodlist .li1 .hidden .white .uls .ul8 .special{
+	font-weight: bolder;
+	color: black;
+	width:200px;
+	font-size: 14px;
+	display: block;
+}
+.banner .commodity .goodlist .li1 .hidden .white .down{
+	margin-top:190px;
+	height:60px;
+}
+.banner .commodity .goodlist .li1 .hidden .white .down li{
+	margin:0;
+	padding:0;
+	float: left;
+}
+.banner .commodity .goodlist .li1 .hidden .black{
+	float: left;
+	width: 315px;
+	height:550px;
+}
+.banner .commodity .goodlist .li1 .hidden .black img{
+	display: block;
+	height:470px;
+	width:340px;
+	margin-top: 30px;
+}
+/*全部品牌*/
+.all{
+	height:360px;
+	width: 1190px;
+>>>>>>> 化妆品
 	margin:0 auto;
 }
 .all .left{
@@ -507,9 +663,18 @@
 	overflow: hidden;
 }
 .all .left .roll .move{
+<<<<<<< HEAD
 	/*width: 1770px;*/
 	height:320px;
 	position: absolute;
+=======
+	width: 1770px;
+	height:320px;
+	position: absolute;
+	/*left:-200px;*/
+	/*top:-100px;*/
+	z-index: 1;
+>>>>>>> 化妆品
 }
 .all .left .roll .move li{
 	width: 590px;
@@ -575,13 +740,21 @@
 	left:0;
 }
 
+<<<<<<< HEAD
 /*Ã†Â·Ã…Ã†Ã‘Â¡ÃÃ®Â¿Â¨*/
+=======
+/*全部品牌¨*/
+>>>>>>> 化妆品
 .all .right{
 	width:600px;
 	float: left;
 	height:365px;
+<<<<<<< HEAD
 /*	background: pink;
 */	overflow: hidden;
+=======
+	overflow: hidden;
+>>>>>>> 化妆品
 }
 .all .right .a{
 	width: 600px;
@@ -610,8 +783,18 @@
 	width: 148px;
 	height:78px;
 	border:1px solid #f5f5f5;
+<<<<<<< HEAD
 	background:url(../images/logo_position.jpg);
 	float: left;
+=======
+/*	background-color: white;
+*/	float: left;
+	position: relative;
+}
+.all .right .logo div img{
+	position: absolute;
+	z-index: -1;
+>>>>>>> 化妆品
 }
 .all .right .logo div div {
 	display: none;
@@ -619,7 +802,12 @@
 	height:78px;
 	background: black;
 	opacity: 0.7;
+<<<<<<< HEAD
 	
+=======
+	position: absolute;
+	z-index: 1;
+>>>>>>> 化妆品
 }
 .all .right .logo div div span{
 	color:white;
@@ -640,7 +828,11 @@
 	margin-left: 35px;
 
 }
+<<<<<<< HEAD
 /*Â¾Â«Ã†Â·ÃÃ†Â¼Ã¶*/
+=======
+/*精品推荐*/
+>>>>>>> 化妆品
 .picks{
 	width: 1190px;
 	height:640px;
@@ -686,6 +878,7 @@
 	left:100px;
 	position: absolute;
 }
+<<<<<<< HEAD
 .picks .piece .second{
 	background: url(../images/hp_whatsnew_20181123.jpg);
 }
@@ -696,11 +889,126 @@
 
 
 /*Â»Â¤Â·Ã´Ã†Â·Ã€Ã */
+=======
+.picks .piece .first .children{
+	position: absolute;
+	left: 385px;
+	top:150px;
+	width: 190px;
+	height:140px;
+}
+.picks .piece .first .children span{
+	display: block;
+	font-size: 12px;
+/*	float: left;
+*/}
+.picks .piece .first .children img{
+	width:80px;
+	height:90px;
+	float: right;
+	left:100px;
+	position: absolute;
+}
+/*.picks .piece .second{
+	background: url(../images/hp_whatsnew_20181123.jpg);
+}*/
+.picks .piece .second{
+	position: relative;
+	background: url(../images/hp_maskranking_20181120.jpg);
+}
+.picks .piece .second .childs{
+	position: absolute;
+	left: 385px;
+	top:10px;
+	width: 190px;
+	height:140px;
+}
+.picks .piece .second .childs span{
+	display: block;
+	font-size: 12px;
+/*	float: left;
+*/}
+.picks .piece .second .childs img{
+	width:80px;
+	height:90px;
+	float: right;
+	left:100px;
+	position: absolute;
+}
+.picks .piece .second .children{
+	position: absolute;
+	left: 385px;
+	top:150px;
+	width: 190px;
+	height:140px;
+}
+.picks .piece .second .children span{
+	display: block;
+	font-size: 12px;
+/*	float: left;
+*/}
+.picks .piece .second .children img{
+	width:80px;
+	height:90px;
+	float: right;
+	left:100px;
+	position: absolute;
+}
+.picks .piece .third{
+	background: url(../images/hp_deepclean_20181122.jpg);
+	position: relative;
+}
+.picks .piece .third .childs{
+	position: absolute;
+	left: 385px;
+	top:10px;
+	width: 190px;
+	height:140px;
+}
+.picks .piece .third .childs span{
+	display: block;
+	font-size: 12px;
+/*	float: left;
+*/}
+.picks .piece .third .childs img{
+	width:80px;
+	height:90px;
+	float: right;
+	left:100px;
+	position: absolute;
+}
+.picks .piece .third .children{
+	position: absolute;
+	left: 385px;
+	top:150px;
+	width: 190px;
+	height:140px;
+}
+.picks .piece .third .children span{
+	display: block;
+	font-size: 12px;
+/*	float: left;
+*/}
+.picks .piece .third .children img{
+	width:80px;
+	height:90px;
+	float: right;
+	left:100px;
+	position: absolute;
+}
+
+
+/*护肤品类 */
+>>>>>>> 化妆品
 .skincare{
 	width: 1190px;
 	margin:0 auto;
 	height:610px;
+<<<<<<< HEAD
 	background: pink;
+=======
+/*	background: pink;*/
+>>>>>>> 化妆品
 	margin-top: 80px;
 }
 .skincare .roof{
@@ -742,7 +1050,11 @@
 	height:248px;
 	border:1px solid #f5f5f5;
 	float: left;
+<<<<<<< HEAD
 /*	padding-left: 15px;*/
+=======
+	background: white;
+>>>>>>> 化妆品
 	position: relative;
 }
 .skincare .middle .more div span{
@@ -771,13 +1083,22 @@
 	margin-top: -20px;
 }
 
+<<<<<<< HEAD
 /*Â²Ã‚Ã„Ã£ÃÂ²Â»Â¶*/
+=======
+/*猜你喜欢*/
+>>>>>>> 化妆品
 .guess{
 	height:1075px;
 	width: 1190px;
 	margin:0 auto;
+<<<<<<< HEAD
 	background-color: pink;
 	margin-top: 75px;
+=======
+/*	background-color: pink;
+*/	margin-top: 75px;
+>>>>>>> 化妆品
 	margin-bottom: 80px;
 }
 .guess .like{
@@ -795,6 +1116,10 @@
 	width: 236px;
 	height:259px;
 	border:1px solid #f7f7f7;
+<<<<<<< HEAD
+=======
+	background-color: white;
+>>>>>>> 化妆品
 	float: left;
 }
 .guess .leave div img{
